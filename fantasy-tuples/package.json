@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "fantasy-tuples",
+        "scope": null,
+        "escapedName": "fantasy-tuples",
+        "name": "fantasy-tuples",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/blonsdorf/Documents/design-system-internal"
+    ]
+  ],
+  "_from": "fantasy-tuples@latest",
+  "_id": "fantasy-tuples@1.0.0",
+  "_inCache": true,
+  "_location": "/fantasy-tuples",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/fantasy-tuples-1.0.0.tgz_1481210939994_0.8167012750636786"
+  },
+  "_npmUser": {
+    "name": "joneshf",
+    "email": "jones3.hardy@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "fantasy-tuples",
+    "scope": null,
+    "escapedName": "fantasy-tuples",
+    "name": "fantasy-tuples",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fantasy-tuples/-/fantasy-tuples-1.0.0.tgz",
+  "_shasum": "1b407e993bdc8131218473080691c7327fe63fbb",
+  "_shrinkwrap": null,
+  "_spec": "fantasy-tuples",
+  "_where": "/Users/blonsdorf/Documents/design-system-internal",
+  "author": {
+    "name": "Brian McKenna"
+  },
+  "bugs": {
+    "url": "https://github.com/puffnfresh/fantasy-tuples/issues"
+  },
+  "dependencies": {
+    "daggy": "0.0.x",
+    "fantasy-land": "git+https://github.com/fantasyland/fantasy-land.git"
+  },
+  "description": "Tuple data structures.",
+  "devDependencies": {
+    "fantasy-check": "0.1.6",
+    "fantasy-combinators": "0.0.x",
+    "fantasy-equality": "git+https://github.com/fantasyland/fantasy-equality.git",
+    "fantasy-helpers": "0.0.x",
+    "nodeunit": "0.9.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1b407e993bdc8131218473080691c7327fe63fbb",
+    "tarball": "https://registry.npmjs.org/fantasy-tuples/-/fantasy-tuples-1.0.0.tgz"
+  },
+  "files": [
+    "fantasy-tuples.js",
+    "src/*.js"
+  ],
+  "gitHead": "3283c3a4d7fd4cb413965f37107803553a0765b5",
+  "homepage": "https://github.com/puffnfresh/fantasy-tuples#readme",
+  "keywords": [
+    "fantasyland",
+    "tuples",
+    "semigroup"
+  ],
+  "license": "MIT",
+  "main": "fantasy-tuples.js",
+  "maintainers": [
+    {
+      "name": "joneshf",
+      "email": "jones3.hardy@gmail.com"
+    },
+    {
+      "name": "puffnfresh",
+      "email": "brian@brianmckenna.org"
+    },
+    {
+      "name": "stickupkid",
+      "email": "stickupkid@gmail.com"
+    },
+    {
+      "name": "trevorbasinger",
+      "email": "trevor.basinger@gmail.com"
+    }
+  ],
+  "name": "fantasy-tuples",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puffnfresh/fantasy-tuples.git"
+  },
+  "scripts": {
+    "test": "node --harmony_destructuring node_modules/.bin/nodeunit test/*.js"
+  },
+  "version": "1.0.0"
+}

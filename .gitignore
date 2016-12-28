@@ -1,0 +1,25 @@
+# Ignore all hidden dotfiles
+.*
+
+# Whitelist useful dotfiles
+!/.gitignore
+!/.travis.yml
+
+# Add a .gitkeep file in an empty
+# directory to check it in the repository
+!.gitkeep
+
+# Ignore modules
+/node_modules
+
+# Ignore logs
+*.log
+
+# Ignore code coverage reports
+coverage
+
+# local testing
+scratch
+
+# Legacy folders
+/git_modules
