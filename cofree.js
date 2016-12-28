@@ -19,8 +19,8 @@ Cofree.prototype.inspect = function() {
   return `Cofree(${inspect(this.head)}, ${inspect(this.tail)})`
 
 }
+
 // s -> (s -> a) -> (s -> f s) -> Cofree f a
-//  Cofree (e s) (defer \_ -> map (\s1 -> unfoldCofree s1 e n) (n s))
 Cofree.unfold = function(s, e, n) {
   return Cofree(e(s), n(s).map(s1 => Cofree.unfold(s1, e, n)))
 }

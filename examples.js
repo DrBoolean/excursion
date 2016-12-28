@@ -37,6 +37,7 @@ const sum = t =>
 console.log('Basic')
 const result = list.cata(sum)
 console.log(result)
+// 6
 
 
 
